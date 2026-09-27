@@ -30,8 +30,10 @@ Enterprise BI and analytics products with natural-language Q&A, generative repor
 - [ThoughtSpot Spotter](https://www.thoughtspot.com/product/spotter) - Search- and agent-first analytics: natural-language questions mapped to a governed semantic layer with verifiable queries.
 - [Looker Conversational Analytics (Gemini)](https://docs.cloud.google.com/looker/docs/conversational-analytics-overview) - Natural-language exploration grounded in LookML semantic models for consistent metric answers.
 - [Qlik Answers](https://www.qlik.com/us/products/qlik-answers) - Agentic assistant over Qlik analytics (and unstructured knowledge bases) with explainability and citations.
+- [Databricks AI/BI (Genie One)](https://docs.databricks.com/aws/en/ai-bi/) - AI/BI dashboards plus Genie One (renamed from Databricks One / Genie in 2026) for natural-language questions, chat, and documents over governed lakehouse data and metric views.
+- [Snowflake CoWork](https://www.snowflake.com/en/product/snowflake-intelligence/) - Enterprise intelligence agent (formerly Snowflake Intelligence) for asking questions of governed data, automating tasks, and acting in business tools.
 - [Omni Analytics](https://omni.co/) - Modern BI with a governed semantic layer and AI-assisted querying for shared metric definitions.
-- [Domo](https://www.domo.com/) - Cloud BI / dashboard platform with AI features for exploration and operational reporting.
+- [Domo](https://www.domo.com/) - Cloud BI / dashboard platform with AI features for exploration and operational reporting; now part of Progress Software (acquisition of Domo's AI and data platform business completed Sep 2026).
 - [Zoho Analytics (Ask Zia)](https://www.zoho.com/analytics/) - SME-friendly BI with natural-language asking and automated insights.
 
 ---
@@ -53,8 +55,9 @@ Self-hostable or open-core tools for executive and operational dashboards; prefe
 
 Governed metric definitions are what make AI copilots trustworthy for executives — define once, query everywhere.
 
-- [dbt Semantic Layer / MetricFlow](https://docs.getdbt.com/docs/build/about-metricflow) - Define metrics in YAML; MetricFlow generates consistent SQL across tools and consumers.
-- [LookML](https://cloud.google.com/looker/docs/what-is-lookml) - Looker's modeling language: dimensions, measures, and explores as the source of truth for Conversational Analytics.
+- [dbt Semantic Layer / MetricFlow](https://docs.getdbt.com/docs/build/about-metricflow) - Define metrics in YAML; MetricFlow generates consistent SQL across tools and consumers. Open-sourced under Apache 2.0 (Dec 2025). ([GitHub](https://github.com/dbt-labs/metricflow))
+- [Apache Ossie (incubating)](https://ossie.apache.org/) - Vendor-neutral spec for exchanging semantic models (metrics, dimensions, relationships) across BI, AI, and data platforms; formerly Open Semantic Interchange (OSI), backed by Snowflake, Databricks, dbt Labs, Salesforce, and others. ([GitHub](https://github.com/apache/ossie))
+- [LookML](https://docs.cloud.google.com/looker/docs/what-is-lookml) - Looker's modeling language: dimensions, measures, and explores as the source of truth for Conversational Analytics.
 - [Microsoft Power BI semantic models](https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand) - Shared models (and AI preparation guidance) that Copilot and reports query consistently.
 - [Cube](https://cube.dev/) - Headless semantic layer / metrics API for embedding analytics in apps and AI agents. ([GitHub](https://github.com/cube-js/cube))
 
@@ -64,7 +67,7 @@ Governed metric definitions are what make AI copilots trustworthy for executives
 
 Workforce metrics, org design, and people risk as executive dashboard inputs.
 
-- [Visier](https://www.visier.com/) - People analytics platform with AI-assisted workforce insights and planning.
+- [Visier](https://www.visier.com/) - People analytics platform (Visier Workforce AI) with AI-assisted workforce insights and planning.
 - [Workday](https://www.workday.com/) - Cloud HCM with embedded analytics and predictive people insights.
 - [ChartHop](https://www.charthop.com/) - Org charts, headcount planning, and workforce analytics for people leaders.
 - [Lattice](https://lattice.com/) - Performance, engagement, and people data often rolled into leadership scorecards.
@@ -99,7 +102,7 @@ Process mining, simulation, and twin-style views that explain *why* operational 
 Planning, forecasting, and scenario tools that back board and executive financial dashboards.
 
 - [Anaplan](https://www.anaplan.com/) - Connected planning platform with ML-assisted forecasting and scenario modeling.
-- [Workday Adaptive Planning](https://www.workday.com/en-us/products/adaptive-planning/overview.html) - Cloud FP&A with AI-assisted forecasting and what-if planning.
+- [Adaptive from Workday](https://www.workday.com/en-us/products/adaptive-planning/overview.html) - Cloud FP&A / enterprise performance management with AI-assisted forecasting and what-if planning (formerly Workday Adaptive Planning).
 - [Vena](https://www.venasolutions.com/) - Excel-native FP&A with AI-assisted planning workflows.
 - [IBM Planning Analytics](https://www.ibm.com/products/planning-analytics) - TM1-based planning and AI forecasting for enterprise FP&A.
 - [Pigment](https://www.pigment.com/) - Modern business planning platform used for finance and operational scenarios.
@@ -111,9 +114,9 @@ Planning, forecasting, and scenario tools that back board and executive financia
 How to choose and structure the 5–12 metrics executives actually use — independent of any vendor UI.
 
 - [Balanced Scorecard Institute](https://balancedscorecard.org/) - Classic strategy-map / BSC methodology for balanced financial and non-financial KPIs.
-- [OKR resources (WhatMatters / Google re:Work)](https://rework.withgoogle.com/intl/en/guides/set-goals-with-okrs/) - Practical OKR guidance for pairing outcome goals with ongoing KPI monitoring.
+- [OKR resources (WhatMatters / Google re:Work)](https://rework.withgoogle.com/intl/en/guides/set-goals-with-okrs/) - Practical OKR guidance for pairing outcome goals with ongoing KPI monitoring (re:Work guide is archived but still available).
 - [ClearPoint — Executive dashboard examples](https://www.clearpointstrategy.com/blog/executive-dashboard-examples) - Practical patterns: few metrics, each with owner, target, trend, and decision context.
-- [Decision Intelligence (Gartner glossary)](https://www.gartner.com/en/information-technology/glossary/decision-intelligence) - Framing for connecting data, analytics, and decision workflows (vendor-neutral glossary entry).
+- [Decision Intelligence Platforms (Gartner Peer Insights)](https://www.gartner.com/reviews/market/decision-intelligence-platforms) - Gartner's market definition (decision modeling, execution, governance) and peer reviews of decision-intelligence platforms.
 
 ---
 

@@ -30,8 +30,10 @@
 - [ThoughtSpot Spotter（英語）](https://www.thoughtspot.com/product/spotter) - 検索／エージェント先行型分析。自然言語の質問を検証可能なセマンティック層クエリにマッピング。
 - [Looker Conversational Analytics（Gemini）（英語）](https://docs.cloud.google.com/looker/docs/conversational-analytics-overview) - LookMLセマンティックモデルに根ざした自然言語探索で、一貫した指標回答を返す。
 - [Qlik Answers（英語）](https://www.qlik.com/us/products/qlik-answers) - Qlik分析（および非構造化ナレッジベース）向けエージェント型アシスタント。説明可能性と引用付き。
+- [Databricks AI/BI（Genie One）（英語）](https://docs.databricks.com/aws/en/ai-bi/) - AI/BIダッシュボードと Genie One（2026年に Databricks One / Genie から改称）。ガバナンスされたレイクハウスデータやメトリクスビューに対する自然言語質問・チャット・ドキュメント作成。
+- [Snowflake CoWork（英語）](https://www.snowflake.com/en/product/snowflake-intelligence/) - 旧 Snowflake Intelligence。ガバナンスされたデータへの質問、タスク自動化、業務ツール上でのアクションを行うエンタープライズ向けインテリジェンスエージェント。
 - [Omni Analytics（英語）](https://omni.co/) - ガバナンスされたセマンティックレイヤーとAI支援クエリを組み合わせたモダンBI。
-- [Domo（英語）](https://www.domo.com/) - リアルタイム統合とAI機能を備えたクラウドBI／ダッシュボード。
+- [Domo（英語）](https://www.domo.com/) - リアルタイム統合とAI機能を備えたクラウドBI／ダッシュボード。2026年9月に Progress Software による Domo の AI・データプラットフォーム事業の買収が完了し、同社製品群の一部に。
 - [Zoho Analytics（Ask Zia）（英語）](https://www.zoho.com/analytics/) - 中小規模向けBI。自然言語質問と自動インサイト。
 
 ---
@@ -53,8 +55,9 @@
 
 エグゼクティブ向けAIコパイロットの信頼性は、ガバナンスされた指標定義にかかっている。一度定義し、どこからでも同じ数字を問い合わせる。
 
-- [dbt Semantic Layer / MetricFlow（英語）](https://docs.getdbt.com/docs/build/about-metricflow) - YAMLでメトリクスを定義。MetricFlowが一貫したSQLを生成。
-- [LookML（英語）](https://cloud.google.com/looker/docs/what-is-lookml) - Lookerのモデリング言語。Conversational Analyticsの正本となるディメンション／メジャー／Explore。
+- [dbt Semantic Layer / MetricFlow（英語）](https://docs.getdbt.com/docs/build/about-metricflow) - YAMLでメトリクスを定義。MetricFlowが一貫したSQLを生成。2025年12月に Apache 2.0 でオープンソース化。（[GitHub](https://github.com/dbt-labs/metricflow)）
+- [Apache Ossie（incubating）（英語）](https://ossie.apache.org/) - BI・AI・データ基盤間でセマンティックモデル（メトリクス・ディメンション・リレーション）を交換するベンダー中立の仕様。旧 Open Semantic Interchange（OSI）で、Snowflake・Databricks・dbt Labs・Salesforce などが参加。（[GitHub](https://github.com/apache/ossie)）
+- [LookML（英語）](https://docs.cloud.google.com/looker/docs/what-is-lookml) - Lookerのモデリング言語。Conversational Analyticsの正本となるディメンション／メジャー／Explore。
 - [Microsoft Power BI セマンティックモデル（英語）](https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand) - Copilotとレポートが共有するセマンティックモデル（AI向けデータ準備の公式ガイドあり）。
 - [Cube（英語）](https://cube.dev/) - アプリやAIエージェント埋め込み向けのヘッドレス・セマンティック層／メトリクスAPI。（[GitHub](https://github.com/cube-js/cube)）
 
@@ -64,7 +67,7 @@
 
 人材・組織・離職リスクなどを経営ダッシュボードに載せるための基盤。
 
-- [Visier（英語）](https://www.visier.com/) - AI支援のワークフォースインサイトと人材計画を備えたピープルアナリティクス。
+- [Visier（英語）](https://www.visier.com/) - AI支援のワークフォースインサイトと人材計画を備えたピープルアナリティクス（Visier Workforce AI）。
 - [Workday（英語）](https://www.workday.com/) - クラウドHCM。予測分析を統合した人事・組織データ基盤。
 - [ChartHop（英語）](https://www.charthop.com/) - 組織図、人員計画、ワークフォースアナリティクス。
 - [Lattice（英語）](https://lattice.com/) - パフォーマンス・エンゲージメントなど、リーダー向けスコアカードに載りやすい人事データ。
@@ -99,7 +102,7 @@
 ボード／経営ダッシュボードを裏打ちする計画・予測・シナリオツール。
 
 - [Anaplan（英語）](https://www.anaplan.com/) - ML支援の予測とシナリオ最適化を備えたコネクテッドプランニング。
-- [Workday Adaptive Planning（英語）](https://www.workday.com/en-us/products/adaptive-planning/overview.html) - AI支援の予測とWhat-ifを統合したクラウドFP&A。
+- [Adaptive from Workday（英語）](https://www.workday.com/en-us/products/adaptive-planning/overview.html) - AI支援の予測とWhat-ifを統合したクラウドFP&A／経営管理（EPM）。旧称 Workday Adaptive Planning。
 - [Vena（英語）](https://www.venasolutions.com/) - ExcelネイティブのAI活用FP&A。
 - [IBM Planning Analytics（英語）](https://www.ibm.com/products/planning-analytics) - TM1ベースの計画分析とAI予測。
 - [Pigment（英語）](https://www.pigment.com/) - 財務・オペレーションのシナリオに使われるモダンな事業計画プラットフォーム。
@@ -111,9 +114,9 @@
 ベンダーUIに依存せず、経営が実際に使う5〜12指標の選び方・構造化。
 
 - [Balanced Scorecard Institute（英語）](https://balancedscorecard.org/) - 戦略マップ／BSCによる財務・非財務KPIのバランス設計。
-- [OKRリソース（Google re:Work）（英語）](https://rework.withgoogle.com/intl/en/guides/set-goals-with-okrs/) - 成果目標（OKR）と継続監視KPIの併用ガイド。
+- [OKRリソース（Google re:Work）（英語）](https://rework.withgoogle.com/intl/en/guides/set-goals-with-okrs/) - 成果目標（OKR）と継続監視KPIの併用ガイド（re:Workのガイドはアーカイブ扱いだが閲覧可）。
 - [ClearPoint — Executive dashboard examples（英語）](https://www.clearpointstrategy.com/blog/executive-dashboard-examples) - 少数指標・オーナー・目標・トレンド・意思決定コンテキストの実践パターン。
-- [Decision Intelligence（Gartner glossary）（英語）](https://www.gartner.com/en/information-technology/glossary/decision-intelligence) - データ・分析・意思決定ワークフローをつなぐ枠組み（ベンダー中立の用語解説）。
+- [Decision Intelligence Platforms（Gartner Peer Insights）（英語）](https://www.gartner.com/reviews/market/decision-intelligence-platforms) - 意思決定インテリジェンス基盤の市場定義（意思決定のモデリング・実行・ガバナンス）とユーザーレビュー。
 
 ---
 
