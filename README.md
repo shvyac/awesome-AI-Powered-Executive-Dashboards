@@ -27,11 +27,13 @@ Enterprise BI and analytics products with natural-language Q&A, generative repor
 
 - [Microsoft Power BI Copilot](https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction) - Generative AI in Power BI / Fabric for chat-with-data, report summaries, narrative visuals, and DAX assistance (capacity + admin enablement required).
 - [Tableau Pulse](https://www.tableau.com/products/tableau-pulse) - Personalized, AI-driven metric insights and digests (Slack, email, Teams, mobile) on a governed metrics layer; included with Tableau Cloud.
-- [ThoughtSpot Spotter](https://www.thoughtspot.com/product/spotter) - Search- and agent-first analytics: natural-language questions mapped to a governed semantic layer with verifiable queries.
+- [Tableau Next](https://www.tableau.com/products/tableau-next) - Salesforce's API-first agentic analytics on Data 360, with Tableau Semantics, Tableau Agent, Tableau Next MCP (headless analytics for any AI agent), and Slack / workflow actions; standalone or in the Tableau+ bundle.
+- [ThoughtSpot Spotter](https://www.thoughtspot.com/product/agents/spotter) - Search- and agent-first analytics ("AI Analyst"): natural-language questions mapped to a governed semantic layer with verifiable queries; part of the Spotter agent family (SpotterModel, SpotterViz, SpotterCode).
 - [Looker Conversational Analytics (Gemini)](https://docs.cloud.google.com/looker/docs/conversational-analytics-overview) - Natural-language exploration grounded in LookML semantic models for consistent metric answers.
 - [Qlik Answers](https://www.qlik.com/us/products/qlik-answers) - Agentic assistant over Qlik analytics (and unstructured knowledge bases) with explainability and citations.
-- [Databricks AI/BI (Genie One)](https://docs.databricks.com/aws/en/ai-bi/) - AI/BI dashboards plus Genie One (renamed from Databricks One / Genie in 2026) for natural-language questions, chat, and documents over governed lakehouse data and metric views.
-- [Snowflake CoWork](https://www.snowflake.com/en/product/snowflake-intelligence/) - Enterprise intelligence agent (formerly Snowflake Intelligence) for asking questions of governed data, automating tasks, and acting in business tools.
+- [Databricks AI/BI (Genie Agents / Genie One)](https://docs.databricks.com/aws/en/ai-bi/) - AI/BI dashboards, domain-specific Genie Agents (formerly AI/BI Genie spaces; agent mode, benchmarks, API for Slack / Teams), and Genie One as the business-user hub, all over Unity Catalog semantics and governed lakehouse data.
+- [Snowflake CoWork](https://www.snowflake.com/en/product/snowflake-cowork/) - Enterprise work agent (formerly Snowflake Intelligence) for asking questions of governed data, running deep research, and acting in business tools via MCP.
+- [Amazon Quick](https://aws.amazon.com/quick/) - AWS's AI assistant for work (formerly Amazon QuickSight / Quick Suite): BI dashboards and visualizations plus research, business-insight, and automation agents over enterprise data.
 - [Omni Analytics](https://omni.co/) - Modern BI with a governed semantic layer and AI-assisted querying for shared metric definitions.
 - [Domo](https://www.domo.com/) - Cloud BI / dashboard platform with AI features for exploration and operational reporting; now part of Progress Software (acquisition of Domo's AI and data platform business completed Sep 2026).
 - [Zoho Analytics (Ask Zia)](https://www.zoho.com/analytics/) - SME-friendly BI with natural-language asking and automated insights.
@@ -45,7 +47,7 @@ Self-hostable or open-core tools for executive and operational dashboards; prefe
 - [Apache Superset](https://superset.apache.org/) - Apache-2.0 data exploration and dashboard platform (SQL Lab, 40+ viz types, semantic datasets). ([GitHub](https://github.com/apache/superset))
 - [Metabase](https://www.metabase.com/) - Approachable open-source BI with dashboards, alerts, embedding, and AI querying (Metabot); self-host or Cloud. ([GitHub](https://github.com/metabase/metabase))
 - [Lightdash](https://www.lightdash.com/) - Agentic / dbt-native BI: governed metrics and dashboards shipped through Git, CLI, and MCP. ([GitHub](https://github.com/lightdash/lightdash))
-- [Evidence](https://evidence.dev/) - Code-first, SQL + Markdown reporting that builds static, shareable data apps. ([GitHub](https://github.com/evidence-dev/evidence))
+- [Evidence](https://evidence.dev/) - Code-first, SQL + Markdown reporting that builds static, shareable data apps; open-source framework plus hosted Evidence Studio. ([GitHub](https://github.com/evidence-dev/evidence))
 - [Grafana](https://grafana.com/oss/grafana/) - Open observability and dashboarding stack; useful for real-time operational / IoT executive views. ([GitHub](https://github.com/grafana/grafana))
 - [Redash](https://redash.io/) - SQL-to-visualization and dashboard sharing (community-maintained lineage). ([GitHub](https://github.com/getredash/redash))
 

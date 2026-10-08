@@ -27,11 +27,13 @@
 
 - [Microsoft Power BI Copilot（英語）](https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction) - Power BI / Fabric向け生成AI。データとの対話、レポート要約、ナラティブビジュアル、DAX支援など（容量と管理者設定が必要）。
 - [Tableau Pulse（英語）](https://www.tableau.com/products/tableau-pulse) - ガバナンスされたメトリクス層上のパーソナライズされたAIインサイトとダイジェスト（Slack・メール・Teams・モバイル）。Tableau Cloudに含まれる。
-- [ThoughtSpot Spotter（英語）](https://www.thoughtspot.com/product/spotter) - 検索／エージェント先行型分析。自然言語の質問を検証可能なセマンティック層クエリにマッピング。
+- [Tableau Next（英語）](https://www.tableau.com/products/tableau-next) - Salesforce の API ファーストなエージェント型分析。Data 360 を統合データ層とし、Tableau Semantics、Tableau Agent、Tableau Next MCP（任意のAIエージェント向けヘッドレス分析）、Slack・ワークフロー連携を備える。単体または Tableau+ バンドルで提供。
+- [ThoughtSpot Spotter（英語）](https://www.thoughtspot.com/product/agents/spotter) - 検索／エージェント先行型分析（「AI Analyst」）。自然言語の質問を検証可能なセマンティック層クエリにマッピング。SpotterModel・SpotterViz・SpotterCode などの Spotter エージェント群の一つ。
 - [Looker Conversational Analytics（Gemini）（英語）](https://docs.cloud.google.com/looker/docs/conversational-analytics-overview) - LookMLセマンティックモデルに根ざした自然言語探索で、一貫した指標回答を返す。
 - [Qlik Answers（英語）](https://www.qlik.com/us/products/qlik-answers) - Qlik分析（および非構造化ナレッジベース）向けエージェント型アシスタント。説明可能性と引用付き。
-- [Databricks AI/BI（Genie One）（英語）](https://docs.databricks.com/aws/en/ai-bi/) - AI/BIダッシュボードと Genie One（2026年に Databricks One / Genie から改称）。ガバナンスされたレイクハウスデータやメトリクスビューに対する自然言語質問・チャット・ドキュメント作成。
-- [Snowflake CoWork（英語）](https://www.snowflake.com/en/product/snowflake-intelligence/) - 旧 Snowflake Intelligence。ガバナンスされたデータへの質問、タスク自動化、業務ツール上でのアクションを行うエンタープライズ向けインテリジェンスエージェント。
+- [Databricks AI/BI（Genie Agents / Genie One）（英語）](https://docs.databricks.com/aws/en/ai-bi/) - AI/BIダッシュボード、ドメイン特化の Genie Agents（旧 AI/BI Genie スペース。エージェントモード、ベンチマーク、Slack／Teams 向けAPI）、ビジネスユーザー向けの入口となる Genie One。いずれも Unity Catalog セマンティクスとガバナンスされたレイクハウスデータ上で動作。
+- [Snowflake CoWork（英語）](https://www.snowflake.com/en/product/snowflake-cowork/) - 旧 Snowflake Intelligence。ガバナンスされたデータへの質問、ディープリサーチ、MCP 経由での業務ツール上のアクションを行うエンタープライズ向けワークエージェント。
+- [Amazon Quick（英語）](https://aws.amazon.com/quick/) - AWS の業務向けAIアシスタント（旧 Amazon QuickSight / Quick Suite）。BIダッシュボード・可視化に加え、企業データ上のリサーチ、ビジネスインサイト、自動化エージェントを提供。
 - [Omni Analytics（英語）](https://omni.co/) - ガバナンスされたセマンティックレイヤーとAI支援クエリを組み合わせたモダンBI。
 - [Domo（英語）](https://www.domo.com/) - リアルタイム統合とAI機能を備えたクラウドBI／ダッシュボード。2026年9月に Progress Software による Domo の AI・データプラットフォーム事業の買収が完了し、同社製品群の一部に。
 - [Zoho Analytics（Ask Zia）（英語）](https://www.zoho.com/analytics/) - 中小規模向けBI。自然言語質問と自動インサイト。
@@ -45,7 +47,7 @@
 - [Apache Superset（英語）](https://superset.apache.org/) - Apache-2.0の探索・ダッシュボード基盤（SQL Lab、40種以上の可視化、セマンティックデータセット）。（[GitHub](https://github.com/apache/superset)）
 - [Metabase（英語）](https://www.metabase.com/) - 使いやすいオープンソースBI。ダッシュボード、アラート、埋め込み、AIクエリ（Metabot）。セルフホスト／Cloud。（[GitHub](https://github.com/metabase/metabase)）
 - [Lightdash（英語）](https://www.lightdash.com/) - dbtネイティブのエージェント型BI。Git・CLI・MCP経由でガバナンスされた指標とダッシュボードを出荷。（[GitHub](https://github.com/lightdash/lightdash)）
-- [Evidence（英語）](https://evidence.dev/) - SQL＋Markdownのコードファースト報告。静的で共有しやすいデータアプリを生成。（[GitHub](https://github.com/evidence-dev/evidence)）
+- [Evidence（英語）](https://evidence.dev/) - SQL＋Markdownのコードファースト報告。静的で共有しやすいデータアプリを生成。オープンソースのフレームワークに加え、ホスト型の Evidence Studio もあり。（[GitHub](https://github.com/evidence-dev/evidence)）
 - [Grafana（英語）](https://grafana.com/oss/grafana/) - オープンなオブザーバビリティ／ダッシュボード。リアルタイム運用・IoTの経営ビューにも。（[GitHub](https://github.com/grafana/grafana)）
 - [Redash（英語）](https://redash.io/) - SQLから可視化・ダッシュボード共有（コミュニティ維持系譜）。（[GitHub](https://github.com/getredash/redash)）
 
