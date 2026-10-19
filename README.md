@@ -6,6 +6,8 @@
 
 A curated list of useful **AI-powered executive dashboards**, BI copilots, decision-intelligence platforms, open-source analytics stacks, KPI frameworks, and related tools — for leaders, FP&A, people analytics, and data teams who need governed metrics and actionable insights (not vaporware demos).
 
+⭐ badges show live GitHub star counts (via shields.io).
+
 ## Contents
 
 - [AI BI platforms & copilots](#ai-bi-platforms--copilots)
@@ -18,6 +20,7 @@ A curated list of useful **AI-powered executive dashboards**, BI copilots, decis
 - [KPI frameworks & decision intelligence](#kpi-frameworks--decision-intelligence)
 - [Reading & reports](#reading--reports)
 - [Contributing](#contributing)
+- [shvyac's awesome lists](#shvyacs-awesome-lists)
 
 ---
 
@@ -34,6 +37,7 @@ Enterprise BI and analytics products with natural-language Q&A, generative repor
 - [Databricks AI/BI (Genie Agents / Genie One)](https://docs.databricks.com/aws/en/ai-bi/) - AI/BI dashboards, domain-specific Genie Agents (formerly AI/BI Genie spaces; agent mode, benchmarks, API for Slack / Teams), and Genie One as the business-user hub, all over Unity Catalog semantics and governed lakehouse data.
 - [Snowflake CoWork](https://www.snowflake.com/en/product/snowflake-cowork/) - Enterprise work agent (formerly Snowflake Intelligence) for asking questions of governed data, running deep research, and acting in business tools via MCP.
 - [Amazon Quick](https://aws.amazon.com/quick/) - AWS's AI assistant for work (formerly Amazon QuickSight / Quick Suite): BI dashboards and visualizations plus research, business-insight, and automation agents over enterprise data.
+- [Sigma](https://www.sigmacomputing.com/product/agents) - Cloud-warehouse-native BI with Sigma Agents (built in plain language, act and write back on live data within each user's permissions; run on a schedule, via REST API, or from Claude / ChatGPT through the Sigma MCP server) plus Sigma Assistant and AI Toolkit.
 - [Omni Analytics](https://omni.co/) - Modern BI with a governed semantic layer and AI-assisted querying for shared metric definitions.
 - [Domo](https://www.domo.com/) - Cloud BI / dashboard platform with AI features for exploration and operational reporting; now part of Progress Software (acquisition of Domo's AI and data platform business completed Sep 2026).
 - [Zoho Analytics (Ask Zia)](https://www.zoho.com/analytics/) - SME-friendly BI with natural-language asking and automated insights.
@@ -44,12 +48,13 @@ Enterprise BI and analytics products with natural-language Q&A, generative repor
 
 Self-hostable or open-core tools for executive and operational dashboards; prefer official docs / project sites.
 
-- [Apache Superset](https://superset.apache.org/) - Apache-2.0 data exploration and dashboard platform (SQL Lab, 40+ viz types, semantic datasets). ([GitHub](https://github.com/apache/superset))
-- [Metabase](https://www.metabase.com/) - Approachable open-source BI with dashboards, alerts, embedding, and AI querying (Metabot); self-host or Cloud. ([GitHub](https://github.com/metabase/metabase))
-- [Lightdash](https://www.lightdash.com/) - Agentic / dbt-native BI: governed metrics and dashboards shipped through Git, CLI, and MCP. ([GitHub](https://github.com/lightdash/lightdash))
-- [Evidence](https://evidence.dev/) - Code-first, SQL + Markdown reporting that builds static, shareable data apps; open-source framework plus hosted Evidence Studio. ([GitHub](https://github.com/evidence-dev/evidence))
-- [Grafana](https://grafana.com/oss/grafana/) - Open observability and dashboarding stack; useful for real-time operational / IoT executive views. ([GitHub](https://github.com/grafana/grafana))
-- [Redash](https://redash.io/) - SQL-to-visualization and dashboard sharing (community-maintained lineage). ([GitHub](https://github.com/getredash/redash))
+- [Apache Superset](https://superset.apache.org/) ![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=flat&label=%E2%AD%90) - Apache-2.0 data exploration and dashboard platform (SQL Lab, 40+ viz types, semantic datasets) with a built-in [MCP server](https://superset.apache.org/admin-docs/configuration/mcp-server) for AI agents. ([GitHub](https://github.com/apache/superset))
+- [Metabase](https://www.metabase.com/) ![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=flat&label=%E2%AD%90) - Approachable open-source BI with dashboards, alerts, embedding, and AI querying (Metabot); self-host or Cloud. ([GitHub](https://github.com/metabase/metabase))
+- [Lightdash](https://www.lightdash.com/) ![GitHub stars](https://img.shields.io/github/stars/lightdash/lightdash?style=flat&label=%E2%AD%90) - Agentic / dbt-native BI: governed metrics and dashboards shipped through Git, CLI, and MCP. ([GitHub](https://github.com/lightdash/lightdash))
+- [Evidence](https://evidence.dev/) ![GitHub stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=flat&label=%E2%AD%90) - Code-first, SQL + Markdown reporting that builds static, shareable data apps; open-source framework plus hosted Evidence Studio. ([GitHub](https://github.com/evidence-dev/evidence))
+- [Grafana](https://grafana.com/oss/grafana/) ![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=flat&label=%E2%AD%90) - Open observability and dashboarding stack; useful for real-time operational / IoT executive views. ([GitHub](https://github.com/grafana/grafana))
+- [Redash](https://redash.io/) ![GitHub stars](https://img.shields.io/github/stars/getredash/redash?style=flat&label=%E2%AD%90) - SQL-to-visualization and dashboard sharing (community-maintained lineage). ([GitHub](https://github.com/getredash/redash))
+- [ClickHouse Agentic Data Stack](https://clickhouse.com/ai) ![GitHub stars](https://img.shields.io/github/stars/ClickHouse/agentic-data-stack?style=flat&label=%E2%AD%90) - Self-hostable open-source stack for chat-with-data analytics: ClickHouse + ClickHouse MCP server + LibreChat front end + Langfuse tracing / evaluation, deployable with Docker Compose. ([GitHub](https://github.com/ClickHouse/agentic-data-stack))
 
 ---
 
@@ -57,11 +62,11 @@ Self-hostable or open-core tools for executive and operational dashboards; prefe
 
 Governed metric definitions are what make AI copilots trustworthy for executives — define once, query everywhere.
 
-- [dbt Semantic Layer / MetricFlow](https://docs.getdbt.com/docs/build/about-metricflow) - Define metrics in YAML; MetricFlow generates consistent SQL across tools and consumers. Open-sourced under Apache 2.0 (Dec 2025). ([GitHub](https://github.com/dbt-labs/metricflow))
-- [Apache Ossie (incubating)](https://ossie.apache.org/) - Vendor-neutral spec for exchanging semantic models (metrics, dimensions, relationships) across BI, AI, and data platforms; formerly Open Semantic Interchange (OSI), backed by Snowflake, Databricks, dbt Labs, Salesforce, and others. ([GitHub](https://github.com/apache/ossie))
+- [dbt Semantic Layer / MetricFlow](https://docs.getdbt.com/docs/build/about-metricflow) ![GitHub stars](https://img.shields.io/github/stars/dbt-labs/metricflow?style=flat&label=%E2%AD%90) - Define metrics in YAML; MetricFlow generates consistent SQL across tools and consumers. Open-sourced under Apache 2.0 (Dec 2025). ([GitHub](https://github.com/dbt-labs/metricflow))
+- [Apache Ossie (incubating)](https://ossie.apache.org/) ![GitHub stars](https://img.shields.io/github/stars/apache/ossie?style=flat&label=%E2%AD%90) - Vendor-neutral spec for exchanging semantic models (metrics, dimensions, relationships) across BI, AI, and data platforms; formerly Open Semantic Interchange (OSI), backed by Snowflake, Databricks, dbt Labs, Salesforce, and others. ([GitHub](https://github.com/apache/ossie))
 - [LookML](https://docs.cloud.google.com/looker/docs/what-is-lookml) - Looker's modeling language: dimensions, measures, and explores as the source of truth for Conversational Analytics.
 - [Microsoft Power BI semantic models](https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand) - Shared models (and AI preparation guidance) that Copilot and reports query consistently.
-- [Cube](https://cube.dev/) - Headless semantic layer / metrics API for embedding analytics in apps and AI agents. ([GitHub](https://github.com/cube-js/cube))
+- [Cube](https://cube.dev/) ![GitHub stars](https://img.shields.io/github/stars/cube-js/cube?style=flat&label=%E2%AD%90) - Headless semantic layer / metrics API for embedding analytics in apps and AI agents. ([GitHub](https://github.com/cube-js/cube))
 
 ---
 
@@ -94,7 +99,7 @@ Process mining, simulation, and twin-style views that explain *why* operational 
 - [Celonis](https://www.celonis.com/) - Process mining / process intelligence platform for discovering bottlenecks and automation opportunities.
 - [iGrafx Process360 Live](https://www.igrafx.com/) - Process digital twin and BPM platform for modeling, simulation, and continuous improvement.
 - [Simio](https://www.simio.com/) - Discrete-event simulation and digital-shadow style operational models.
-- [AVEVA Digital Twin](https://www.aveva.com/en/solutions/digital-transformation/digital-twin/) - Industrial digital twin integrating engineering, operations, and performance data.
+- [AVEVA Digital Twin](https://www.aveva.com/en/solutions/digital-transformation/digital-twin/) - Industrial digital twin integrating engineering, operations, and performance data (AVEVA is part of Schneider Electric).
 - [Skan AI](https://www.skan.ai/) - Process discovery / intelligence from desktop and system activity (task mining lineage).
 
 ---
@@ -144,3 +149,25 @@ Prefer **durable official / docs URLs**, short blurbs, and products that are shi
 ## License
 
 [Apache License 2.0](LICENSE)
+
+## shvyac's awesome lists
+
+All curated lists maintained by [shvyac](https://github.com/shvyac):
+
+- [awesome-hamradio](https://github.com/shvyac/awesome-hamradio) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-hamradio?style=flat&label=%E2%AD%90)
+- [awesome-cad-cae](https://github.com/shvyac/awesome-cad-cae) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-cad-cae?style=flat&label=%E2%AD%90)
+- [awesome-map-gis](https://github.com/shvyac/awesome-map-gis) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-map-gis?style=flat&label=%E2%AD%90)
+- [awesome-ballroom-dance](https://github.com/shvyac/awesome-ballroom-dance) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ballroom-dance?style=flat&label=%E2%AD%90)
+- [awesome-ghost-artists](https://github.com/shvyac/awesome-ghost-artists) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ghost-artists?style=flat&label=%E2%AD%90)
+- [awesome-audio-softwares](https://github.com/shvyac/awesome-audio-softwares) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-audio-softwares?style=flat&label=%E2%AD%90)
+- [awesome-online-services](https://github.com/shvyac/awesome-online-services) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-online-services?style=flat&label=%E2%AD%90)
+- [awesome-trading-stock](https://github.com/shvyac/awesome-trading-stock) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-trading-stock?style=flat&label=%E2%AD%90)
+- [awesome-open-source-solvers](https://github.com/shvyac/awesome-open-source-solvers) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-open-source-solvers?style=flat&label=%E2%AD%90)
+- [awesome-m5stack-arduino](https://github.com/shvyac/awesome-m5stack-arduino) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-m5stack-arduino?style=flat&label=%E2%AD%90)
+- [awesome-AI-Powered-Executive-Dashboards](https://github.com/shvyac/awesome-AI-Powered-Executive-Dashboards) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-AI-Powered-Executive-Dashboards?style=flat&label=%E2%AD%90)
+- [awesome-ai-tool-for-mechanical-engineering](https://github.com/shvyac/awesome-ai-tool-for-mechanical-engineering) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ai-tool-for-mechanical-engineering?style=flat&label=%E2%AD%90)
+- [awesome-local-llm](https://github.com/shvyac/awesome-local-llm) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-local-llm?style=flat&label=%E2%AD%90)
+- [awesome-redmine-ai](https://github.com/shvyac/awesome-redmine-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-redmine-ai?style=flat&label=%E2%AD%90)
+- [awesome-dashboards-visualization](https://github.com/shvyac/awesome-dashboards-visualization) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-dashboards-visualization?style=flat&label=%E2%AD%90)
+- [awesome-osint-ai](https://github.com/shvyac/awesome-osint-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-osint-ai?style=flat&label=%E2%AD%90)
+- [awesome-cms-ai](https://github.com/shvyac/awesome-cms-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-cms-ai?style=flat&label=%E2%AD%90)

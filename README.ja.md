@@ -6,6 +6,8 @@
 
 **AIを活用したエグゼクティブ向けダッシュボード**、BIコパイロット、意思決定インテリジェンス、オープンソース分析基盤、KPIフレームワーク、関連ツールの厳選リストです。経営・FP&A・ピープルアナリティクス・データチーム向けに、ガバナンスされた指標と実務で使えるインサイトを重視しています（デモだけの製品は避けます）。
 
+⭐ バッジは GitHub のスター数をリアルタイム表示します(shields.io)。
+
 ## 目次
 
 - [AI BIプラットフォーム・コパイロット](#ai-biプラットフォームコパイロット)
@@ -18,6 +20,7 @@
 - [KPIフレームワーク・意思決定インテリジェンス](#kpiフレームワーク意思決定インテリジェンス)
 - [参考記事・調査レポート](#参考記事調査レポート)
 - [コントリビューション](#コントリビューション)
+- [shvyac の awesome リスト](#shvyac-の-awesome-リスト)
 
 ---
 
@@ -34,6 +37,7 @@
 - [Databricks AI/BI（Genie Agents / Genie One）（英語）](https://docs.databricks.com/aws/en/ai-bi/) - AI/BIダッシュボード、ドメイン特化の Genie Agents（旧 AI/BI Genie スペース。エージェントモード、ベンチマーク、Slack／Teams 向けAPI）、ビジネスユーザー向けの入口となる Genie One。いずれも Unity Catalog セマンティクスとガバナンスされたレイクハウスデータ上で動作。
 - [Snowflake CoWork（英語）](https://www.snowflake.com/en/product/snowflake-cowork/) - 旧 Snowflake Intelligence。ガバナンスされたデータへの質問、ディープリサーチ、MCP 経由での業務ツール上のアクションを行うエンタープライズ向けワークエージェント。
 - [Amazon Quick（英語）](https://aws.amazon.com/quick/) - AWS の業務向けAIアシスタント（旧 Amazon QuickSight / Quick Suite）。BIダッシュボード・可視化に加え、企業データ上のリサーチ、ビジネスインサイト、自動化エージェントを提供。
+- [Sigma（英語）](https://www.sigmacomputing.com/product/agents) - クラウドDWH直結のBI。自然言語で作る Sigma Agents が各ユーザーの権限内でライブデータに基づいて処理・書き戻しを行い、スケジュール実行・REST API・Sigma MCP サーバー経由（Claude／ChatGPT）でも動作。Sigma Assistant と AI Toolkit も備える。
 - [Omni Analytics（英語）](https://omni.co/) - ガバナンスされたセマンティックレイヤーとAI支援クエリを組み合わせたモダンBI。
 - [Domo（英語）](https://www.domo.com/) - リアルタイム統合とAI機能を備えたクラウドBI／ダッシュボード。2026年9月に Progress Software による Domo の AI・データプラットフォーム事業の買収が完了し、同社製品群の一部に。
 - [Zoho Analytics（Ask Zia）（英語）](https://www.zoho.com/analytics/) - 中小規模向けBI。自然言語質問と自動インサイト。
@@ -44,12 +48,13 @@
 
 セルフホスト可能なダッシュボード／分析ツール。公式ドキュメントやプロジェクトサイトを優先。
 
-- [Apache Superset（英語）](https://superset.apache.org/) - Apache-2.0の探索・ダッシュボード基盤（SQL Lab、40種以上の可視化、セマンティックデータセット）。（[GitHub](https://github.com/apache/superset)）
-- [Metabase（英語）](https://www.metabase.com/) - 使いやすいオープンソースBI。ダッシュボード、アラート、埋め込み、AIクエリ（Metabot）。セルフホスト／Cloud。（[GitHub](https://github.com/metabase/metabase)）
-- [Lightdash（英語）](https://www.lightdash.com/) - dbtネイティブのエージェント型BI。Git・CLI・MCP経由でガバナンスされた指標とダッシュボードを出荷。（[GitHub](https://github.com/lightdash/lightdash)）
-- [Evidence（英語）](https://evidence.dev/) - SQL＋Markdownのコードファースト報告。静的で共有しやすいデータアプリを生成。オープンソースのフレームワークに加え、ホスト型の Evidence Studio もあり。（[GitHub](https://github.com/evidence-dev/evidence)）
-- [Grafana（英語）](https://grafana.com/oss/grafana/) - オープンなオブザーバビリティ／ダッシュボード。リアルタイム運用・IoTの経営ビューにも。（[GitHub](https://github.com/grafana/grafana)）
-- [Redash（英語）](https://redash.io/) - SQLから可視化・ダッシュボード共有（コミュニティ維持系譜）。（[GitHub](https://github.com/getredash/redash)）
+- [Apache Superset（英語）](https://superset.apache.org/) ![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=flat&label=%E2%AD%90) - Apache-2.0の探索・ダッシュボード基盤（SQL Lab、40種以上の可視化、セマンティックデータセット）。AIエージェント向けの[MCPサーバー](https://superset.apache.org/admin-docs/configuration/mcp-server)を内蔵。（[GitHub](https://github.com/apache/superset)）
+- [Metabase（英語）](https://www.metabase.com/) ![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=flat&label=%E2%AD%90) - 使いやすいオープンソースBI。ダッシュボード、アラート、埋め込み、AIクエリ（Metabot）。セルフホスト／Cloud。（[GitHub](https://github.com/metabase/metabase)）
+- [Lightdash（英語）](https://www.lightdash.com/) ![GitHub stars](https://img.shields.io/github/stars/lightdash/lightdash?style=flat&label=%E2%AD%90) - dbtネイティブのエージェント型BI。Git・CLI・MCP経由でガバナンスされた指標とダッシュボードを出荷。（[GitHub](https://github.com/lightdash/lightdash)）
+- [Evidence（英語）](https://evidence.dev/) ![GitHub stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=flat&label=%E2%AD%90) - SQL＋Markdownのコードファースト報告。静的で共有しやすいデータアプリを生成。オープンソースのフレームワークに加え、ホスト型の Evidence Studio もあり。（[GitHub](https://github.com/evidence-dev/evidence)）
+- [Grafana（英語）](https://grafana.com/oss/grafana/) ![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=flat&label=%E2%AD%90) - オープンなオブザーバビリティ／ダッシュボード。リアルタイム運用・IoTの経営ビューにも。（[GitHub](https://github.com/grafana/grafana)）
+- [Redash（英語）](https://redash.io/) ![GitHub stars](https://img.shields.io/github/stars/getredash/redash?style=flat&label=%E2%AD%90) - SQLから可視化・ダッシュボード共有（コミュニティ維持系譜）。（[GitHub](https://github.com/getredash/redash)）
+- [ClickHouse Agentic Data Stack（英語）](https://clickhouse.com/ai) ![GitHub stars](https://img.shields.io/github/stars/ClickHouse/agentic-data-stack?style=flat&label=%E2%AD%90) - データと対話する分析をセルフホストできるオープンソース構成。ClickHouse＋ClickHouse MCP サーバー＋LibreChat（フロントエンド）＋Langfuse（トレース・評価）を Docker Compose で一括導入。（[GitHub](https://github.com/ClickHouse/agentic-data-stack)）
 
 ---
 
@@ -57,11 +62,11 @@
 
 エグゼクティブ向けAIコパイロットの信頼性は、ガバナンスされた指標定義にかかっている。一度定義し、どこからでも同じ数字を問い合わせる。
 
-- [dbt Semantic Layer / MetricFlow（英語）](https://docs.getdbt.com/docs/build/about-metricflow) - YAMLでメトリクスを定義。MetricFlowが一貫したSQLを生成。2025年12月に Apache 2.0 でオープンソース化。（[GitHub](https://github.com/dbt-labs/metricflow)）
-- [Apache Ossie（incubating）（英語）](https://ossie.apache.org/) - BI・AI・データ基盤間でセマンティックモデル（メトリクス・ディメンション・リレーション）を交換するベンダー中立の仕様。旧 Open Semantic Interchange（OSI）で、Snowflake・Databricks・dbt Labs・Salesforce などが参加。（[GitHub](https://github.com/apache/ossie)）
+- [dbt Semantic Layer / MetricFlow（英語）](https://docs.getdbt.com/docs/build/about-metricflow) ![GitHub stars](https://img.shields.io/github/stars/dbt-labs/metricflow?style=flat&label=%E2%AD%90) - YAMLでメトリクスを定義。MetricFlowが一貫したSQLを生成。2025年12月に Apache 2.0 でオープンソース化。（[GitHub](https://github.com/dbt-labs/metricflow)）
+- [Apache Ossie（incubating）（英語）](https://ossie.apache.org/) ![GitHub stars](https://img.shields.io/github/stars/apache/ossie?style=flat&label=%E2%AD%90) - BI・AI・データ基盤間でセマンティックモデル（メトリクス・ディメンション・リレーション）を交換するベンダー中立の仕様。旧 Open Semantic Interchange（OSI）で、Snowflake・Databricks・dbt Labs・Salesforce などが参加。（[GitHub](https://github.com/apache/ossie)）
 - [LookML（英語）](https://docs.cloud.google.com/looker/docs/what-is-lookml) - Lookerのモデリング言語。Conversational Analyticsの正本となるディメンション／メジャー／Explore。
 - [Microsoft Power BI セマンティックモデル（英語）](https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand) - Copilotとレポートが共有するセマンティックモデル（AI向けデータ準備の公式ガイドあり）。
-- [Cube（英語）](https://cube.dev/) - アプリやAIエージェント埋め込み向けのヘッドレス・セマンティック層／メトリクスAPI。（[GitHub](https://github.com/cube-js/cube)）
+- [Cube（英語）](https://cube.dev/) ![GitHub stars](https://img.shields.io/github/stars/cube-js/cube?style=flat&label=%E2%AD%90) - アプリやAIエージェント埋め込み向けのヘッドレス・セマンティック層／メトリクスAPI。（[GitHub](https://github.com/cube-js/cube)）
 
 ---
 
@@ -94,7 +99,7 @@
 - [Celonis（英語）](https://www.celonis.com/) - プロセスマイニング／プロセスインテリジェンス。ボトルネック発見と自動化の機会抽出。
 - [iGrafx Process360 Live（英語）](https://www.igrafx.com/) - 業務プロセスのデジタルツイン構築・BPM・シミュレーション。
 - [Simio（英語）](https://www.simio.com/) - 離散事象シミュレーションとデジタルシャドウ型の運用モデル。
-- [AVEVA Digital Twin（英語）](https://www.aveva.com/en/solutions/digital-transformation/digital-twin/) - エンジニアリング・オペレーション・業績データを統合する産業向けデジタルツイン。
+- [AVEVA Digital Twin（英語）](https://www.aveva.com/en/solutions/digital-transformation/digital-twin/) - エンジニアリング・オペレーション・業績データを統合する産業向けデジタルツイン（AVEVA は Schneider Electric グループ傘下）。
 - [Skan AI（英語）](https://www.skan.ai/) - デスクトップ／システム活動からのプロセス発見・インテリジェンス（タスクマイニング系）。
 
 ---
@@ -144,3 +149,25 @@
 ## ライセンス
 
 [Apache License 2.0](LICENSE)
+
+## shvyac の awesome リスト
+
+[shvyac](https://github.com/shvyac) が管理しているキュレーションリストの一覧:
+
+- [awesome-hamradio](https://github.com/shvyac/awesome-hamradio) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-hamradio?style=flat&label=%E2%AD%90)
+- [awesome-cad-cae](https://github.com/shvyac/awesome-cad-cae) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-cad-cae?style=flat&label=%E2%AD%90)
+- [awesome-map-gis](https://github.com/shvyac/awesome-map-gis) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-map-gis?style=flat&label=%E2%AD%90)
+- [awesome-ballroom-dance](https://github.com/shvyac/awesome-ballroom-dance) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ballroom-dance?style=flat&label=%E2%AD%90)
+- [awesome-ghost-artists](https://github.com/shvyac/awesome-ghost-artists) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ghost-artists?style=flat&label=%E2%AD%90)
+- [awesome-audio-softwares](https://github.com/shvyac/awesome-audio-softwares) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-audio-softwares?style=flat&label=%E2%AD%90)
+- [awesome-online-services](https://github.com/shvyac/awesome-online-services) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-online-services?style=flat&label=%E2%AD%90)
+- [awesome-trading-stock](https://github.com/shvyac/awesome-trading-stock) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-trading-stock?style=flat&label=%E2%AD%90)
+- [awesome-open-source-solvers](https://github.com/shvyac/awesome-open-source-solvers) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-open-source-solvers?style=flat&label=%E2%AD%90)
+- [awesome-m5stack-arduino](https://github.com/shvyac/awesome-m5stack-arduino) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-m5stack-arduino?style=flat&label=%E2%AD%90)
+- [awesome-AI-Powered-Executive-Dashboards](https://github.com/shvyac/awesome-AI-Powered-Executive-Dashboards) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-AI-Powered-Executive-Dashboards?style=flat&label=%E2%AD%90)
+- [awesome-ai-tool-for-mechanical-engineering](https://github.com/shvyac/awesome-ai-tool-for-mechanical-engineering) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ai-tool-for-mechanical-engineering?style=flat&label=%E2%AD%90)
+- [awesome-local-llm](https://github.com/shvyac/awesome-local-llm) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-local-llm?style=flat&label=%E2%AD%90)
+- [awesome-redmine-ai](https://github.com/shvyac/awesome-redmine-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-redmine-ai?style=flat&label=%E2%AD%90)
+- [awesome-dashboards-visualization](https://github.com/shvyac/awesome-dashboards-visualization) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-dashboards-visualization?style=flat&label=%E2%AD%90)
+- [awesome-osint-ai](https://github.com/shvyac/awesome-osint-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-osint-ai?style=flat&label=%E2%AD%90)
+- [awesome-cms-ai](https://github.com/shvyac/awesome-cms-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-cms-ai?style=flat&label=%E2%AD%90)
